@@ -1,0 +1,733 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  /* Sets color to all "a" tags */
+  a {
+    color: seashell;
+  }
+  
+  h3, h6 {
+    font-weight: normal;
+  }
+
+.logo {
+  display: flex;
+  justify-content: left;
+}
+
+.logo-links {
+  /* display: flex; */
+  justify-content: right;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.head-orange {
+  color: orange;
+}
+
+.text-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 1rem;
+}
+
+.text-logo span {
+  font-weight: bold !important;
+  text-decoration: none;
+  /* justify-content: ; */
+}
+
+.text-logo h3, .text-logo h6 {
+  margin: 0px;
+}
+
+  /* defines nav bar info */
+  .nav-bar {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(77, 77, 77);
+  }
+
+  /* css for Header Section */
+  
+
+  /* defines header text */
+  header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: space-between;
+  }
+  
+  /* Defines header text */
+  header img {
+    height: 50px;
+    padding-left: 10px;
+  }
+  
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+  }
+  
+  /* Head Mission Section */
+  
+  #fresh-store {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+  }
+
+
+#top-header-text {
+  font-family: 'Oleo Script', cursive;
+  font-size: 240%;
+  margin: 0;
+}
+
+#bottom-header-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 70%;
+}
+
+  /* defines header background image */
+  #goodlife {
+    height: 500px;
+    background-color: rgb(77, 77, 77);
+    padding-top:250px;
+    width: auto;
+  }
+  
+   #welcome-header {
+     text-align: center;
+     font-family: 'Oleo Script', cursive;
+     font-size: 240%;
+   }
+  
+  .offers {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0 5% 0;
+    background-color: white;
+  }
+
+  .offer-a {
+    background-color: rgb(54, 54, 54);
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 350px;
+  } 
+
+  .offer-b {
+    background-color: rgb(54, 54, 54);
+    background-size: cover;
+    background-position: center;
+    width: 570px;
+    height: 350px;
+  }
+
+  .fancy-font {
+    font-family: 'Oleo Script', cursive;
+    font-size: 100%;
+  }
+
+  .bold-green {
+    font-family: fantasy;
+    color: forestgreen;
+    text-emphasis: bold;
+    text-transform: uppercase;
+  }
+
+  .small-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 70%;
+  }
+
+  .white-bold {
+    font-family: fantasy;
+    color: seashell;
+    text-emphasis: bold;
+    text-transform: uppercase;
+  }
+
+.lower {
+  margin-top: 20%;
+}
+
+.welcome-section {
+  background-color: white;
+}
+
+.small-yellow-text {
+  font-family: 'Lato', sans-serif;
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 80%;
+  padding: 5% 0 0 0;
+}
+
+.welcome-header {
+  font-family: 'Oleo Script', cursive;
+  color: black;
+  font-size: 150%;
+}
+
+.small-text-2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 70%;
+  padding: 0 15% 5% 15%;
+  color: black;
+}
+
+.panel-menu {
+  background-image: url("image/bkg-bread.jpg");
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  padding: 3% 0 3% 0;
+}
+
+.panel-text-bold {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.panel-small-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 70%;
+  padding: 0 25% 0 25%;
+}
+
+.pancake {
+  background-color: white;
+  color: black;
+  padding: 3% 0 5% 0;
+}
+
+.pancake-small-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  color: black;
+  text-transform: uppercase;
+}
+
+.pancake-bold {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pancake-header {
+  font-family: 'Oleo Script', cursive;
+  color: black;
+  font-size: 200%;
+}
+
+.pancake-link {
+  text-transform: uppercase;
+  color: limegreen;
+  font-weight: bold;
+}
+
+.fresh-cakes {
+  background-color: white;
+}
+
+.fresh-cake-icon-list {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  padding: 3% 0 3% 0;
+}
+
+.orange-highlight {
+  background-color: orangered;
+}
+
+.fresh-cake-grey {
+  background-color: rgb(136, 136, 136);
+}
+
+.bread-list {
+  background-color: lightgrey;
+  padding: 5% 6% 5% 6%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tile {
+  background: white;
+  padding: 7% 3% 7% 3%;
+}
+
+.tile img {
+  size: 300%;
+}
+
+.tile-bold {
+  font-weight: bold;
+  color: black;
+}
+
+.tile-yellow {
+  font-size: 75%;
+  color: yellow;
+  font-family: 'Oleo Script', cursive;
+}
+
+.cust-test {
+  background-image: url("image/bkg-bread.jpg");
+  padding: 3% 0 3% 0;
+}
+
+.cust-test-header {
+  font-family: 'Oleo Script', cursive;
+  color: white;
+  font-size: 140%;
+}
+
+.cust-test-text {
+  font-family: 'Oleo Script', cursive;
+  font-size: 75%;
+}
+
+.cust-test-auth {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 70%;
+}
+
+.cust-test-location {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 50%;
+}
+
+.news {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  text-align: left;
+  padding: 3% 0 3% 0;
+}
+
+.news-head {
+  font-family: 'Oleo Script', cursive;
+  color: black;
+  font-size: 150%;
+}
+
+.news-panel {
+  width: 400px;
+  padding: 0 2% 0 2%
+}
+
+.news-month{
+  display: inline;
+  color: lightgrey;
+  font-family: 'Oleo Script', cursive;
+  justify-content: center;
+  font-size: 300%;
+}
+
+.news-date {
+  color: lightgrey;
+  font-family: 'Lato', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  display: block;
+  justify-content: left;
+}
+
+.art-bold {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 110%;
+  display: inline;
+}
+
+.art-text {
+  font-family: 'Lato', sans-serif;
+  flex: wrap;
+}
+
+.art-link {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sponsor {
+  padding: 3% 0 3% 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  padding: 3% 0 3% 0;
+}
+
+.contact-yellow {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 70%;
+}
+
+.contact-head {
+  font-family: 'Oleo Script', cursive;
+  color: black;
+  font-size: 150%;
+}
+
+.contact-send { 
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 110%;
+  color: black;
+  display: block;
+  justify-content: center;
+  padding: 3% 0 3% 0;
+}
+
+.location {
+  background-image: url("image/bkg-bread.jpg");
+  padding: 3% 0 3% 0;
+  display: flex;
+}
+
+.loaction-info {
+  justify-content: space-evenly;
+}
+
+.location-img img {
+  justify-content: space-evenly;
+  width: 80%;
+  padding: 5% 5% 5% 5%;
+}
+
+.location-yellow {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: orange;
+  font-size: 70%;
+}
+
+.location-head {
+  font-family: 'Oleo Script', cursive;
+  color: white;
+  font-size: 150%;
+}
+
+.location-small-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 70%;
+  padding: 0 25% 0 25%;
+  text-align: left;
+}
+
+.location-text-icon {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0 2% 0;
+}
+
+.loc-text {
+  display: inline;
+  /* justify-content: right; */
+  font-size: 12px;
+}
+
+.loc-text-bold {
+  font-weight: bold;
+}
+
+.loc-icon {
+  justify-content: center;
+  padding: 0 3% 0 3%;
+}
+
+.location-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 90%;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  justify-content: center;
+  padding: 3% 0 3% 0;
+}
+
+.newsletter {
+  background-color: white;
+  color: black;
+  height: 100%;
+}
+
+.letter-header {
+  font-family: 'Oleo Script', cursive;
+  font-size: 150%;
+}
+
+.letter-small-text {
+  font-family: 'Oleo Script', cursive;
+  font-size: 80%;
+}
+
+.fresh {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3% 0 3% 0;
+}
+
+.fresh-text {
+padding: 6% 0 0 0;
+}
+
+.fresh-img img{
+
+  width: 600px;
+}
+
+.fresh-header {
+ font-family: 'Oleo Script', cursive;
+ color: black;
+ font-size: 130%;
+ text-align: left;
+}
+
+.fresh-name {
+ font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 100%;
+ text-align: left;
+}
+
+.fresh-color {
+  color:orange;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3% 0 3% 0;
+}
+
+.left-logo {
+  display: block;
+  justify-content: center;
+  width: 300px;
+
+}
+
+
+.left-logo-text {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 70%;
+  text-align: left;
+  justify-content: center;
+}
+
+.left-logo-small-text {
+  font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 70%;
+ text-align: left;
+ justify-content: center;
+
+}
+
+.left-logo-link {
+ font-family: 'Lato', sans-serif;
+ color: orange;
+ font-size: 70%;
+ text-align: left;
+ justify-content: center;
+}
+
+.center-ordered-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+.list-1 {
+  font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 70%;
+ text-align: left;
+}
+
+.list-2 {
+  font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 70%;
+ text-align: left;
+}
+
+.ul-head {
+  font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 100%;
+ text-align: left;
+ font-weight: bold;
+}
+
+.instagram {
+  width: 300px;
+  display: block;
+  justify-content: space-evenly;
+}
+
+.ins-head {
+  font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 100%;
+ text-align: left;
+ font-weight: bold;
+}
+
+.instagram img {
+  width: 80px
+}
+
+.sub-footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.copyright {
+ font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 60%;
+}
+
+.copyright-color {
+  color: orange;
+}
+
+.link-box  a {
+ font-family: 'Lato', sans-serif;
+ color: black;
+ font-size: 60%;
+ text-decoration: none;
+ padding: 0 5px 0 5px;
+}
+
+/* disables header links */
+@media (max-width: 950px) {
+  .logo-links {
+  display: none;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .panel-menu {
+    display: block;
+    padding: 8px 0 8px 0;
+  }
+
+  .pancake-small-text {
+    font-size: 70%;
+  }
+
+  .bread-list {
+    display: block;
+    padding: 8px 0 8px 0;
+  }
+
+  .offers {
+    display: block;
+    padding: 8px 0 8px 0;
+  }
+
+  .offer-a {
+    width: auto;
+    /* height: auto; */
+  }
+
+  .offer-b {
+    width: auto;
+    /* height: auto; */
+  }
+
+  .lower {
+    padding: 10% 0 10% 0;
+  }
+
+  .cust-test-text {
+    font-size: 65%;
+  }
+
+  .news {
+    display: block;
+    padding: 8px 0 8px 0;
+  }
+
+  .contact {
+    display: block;
+    padding: 8px 0 8px 0;
+  }
+  
+  .location-text-icon {
+    width: 70%;
+  }
+
+  .news-panel {
+    width: 50%;
+  }
+
+  .fresh {
+    display: block;
+    padding: 8px 0 8px 0;
+  }
+
+  .fresh-img {
+    display: none;
+  }
+
+    footer {
+      font-size: 50%;
+    }
+  footer img{
+      width: 50%;
+  }
+
+  .instagram  img {
+    width: 50%
+  }
+
+  }
